@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProjectDataSet17" targetNamespace="http://tempuri.org/ProjectDataSet17.xsd" xmlns:mstns="http://tempuri.org/ProjectDataSet17.xsd" xmlns="http://tempuri.org/ProjectDataSet17.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ProjectConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ProjectConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.School_Management.Properties.Settings.GlobalReference.Default.ProjectConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="te_cl_suTableAdapter" GeneratorDataComponentClassName="te_cl_suTableAdapter" Name="te_cl_su" UserDataComponentName="te_cl_suTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProjectConnectionString (Settings)" DbObjectName="Project.dbo.te_cl_su" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT teacher_id, teacher_firstname, teacher_lastname, teacher_address, teacher_number_phone, subject_name, class_name FROM dbo.te_cl_su</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="teacher_id" DataSetColumn="teacher_id" />
+              <Mapping SourceColumn="teacher_firstname" DataSetColumn="teacher_firstname" />
+              <Mapping SourceColumn="teacher_lastname" DataSetColumn="teacher_lastname" />
+              <Mapping SourceColumn="teacher_address" DataSetColumn="teacher_address" />
+              <Mapping SourceColumn="teacher_number_phone" DataSetColumn="teacher_number_phone" />
+              <Mapping SourceColumn="subject_name" DataSetColumn="subject_name" />
+              <Mapping SourceColumn="class_name" DataSetColumn="class_name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProjectDataSet17" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ProjectDataSet17" msprop:Generator_UserDSName="ProjectDataSet17">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="te_cl_su" msprop:Generator_TableClassName="te_cl_suDataTable" msprop:Generator_TableVarName="tablete_cl_su" msprop:Generator_TablePropName="te_cl_su" msprop:Generator_RowDeletingName="te_cl_suRowDeleting" msprop:Generator_RowChangingName="te_cl_suRowChanging" msprop:Generator_RowEvHandlerName="te_cl_suRowChangeEventHandler" msprop:Generator_RowDeletedName="te_cl_suRowDeleted" msprop:Generator_UserTableName="te_cl_su" msprop:Generator_RowChangedName="te_cl_suRowChanged" msprop:Generator_RowEvArgName="te_cl_suRowChangeEvent" msprop:Generator_RowClassName="te_cl_suRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="teacher_id" msprop:Generator_ColumnVarNameInTable="columnteacher_id" msprop:Generator_ColumnPropNameInRow="teacher_id" msprop:Generator_ColumnPropNameInTable="teacher_idColumn" msprop:Generator_UserColumnName="teacher_id" type="xs:int" />
+              <xs:element name="teacher_firstname" msprop:Generator_ColumnVarNameInTable="columnteacher_firstname" msprop:Generator_ColumnPropNameInRow="teacher_firstname" msprop:Generator_ColumnPropNameInTable="teacher_firstnameColumn" msprop:Generator_UserColumnName="teacher_firstname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="teacher_lastname" msprop:Generator_ColumnVarNameInTable="columnteacher_lastname" msprop:Generator_ColumnPropNameInRow="teacher_lastname" msprop:Generator_ColumnPropNameInTable="teacher_lastnameColumn" msprop:Generator_UserColumnName="teacher_lastname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="teacher_address" msprop:Generator_ColumnVarNameInTable="columnteacher_address" msprop:Generator_ColumnPropNameInRow="teacher_address" msprop:Generator_ColumnPropNameInTable="teacher_addressColumn" msprop:Generator_UserColumnName="teacher_address">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="teacher_number_phone" msprop:Generator_ColumnVarNameInTable="columnteacher_number_phone" msprop:Generator_ColumnPropNameInRow="teacher_number_phone" msprop:Generator_ColumnPropNameInTable="teacher_number_phoneColumn" msprop:Generator_UserColumnName="teacher_number_phone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="subject_name" msprop:Generator_ColumnVarNameInTable="columnsubject_name" msprop:Generator_ColumnPropNameInRow="subject_name" msprop:Generator_ColumnPropNameInTable="subject_nameColumn" msprop:Generator_UserColumnName="subject_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="class_name" msprop:Generator_ColumnVarNameInTable="columnclass_name" msprop:Generator_ColumnPropNameInRow="class_name" msprop:Generator_ColumnPropNameInTable="class_nameColumn" msprop:Generator_UserColumnName="class_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:te_cl_su" />
+      <xs:field xpath="mstns:teacher_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

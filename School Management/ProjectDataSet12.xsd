@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProjectDataSet12" targetNamespace="http://tempuri.org/ProjectDataSet12.xsd" xmlns:mstns="http://tempuri.org/ProjectDataSet12.xsd" xmlns="http://tempuri.org/ProjectDataSet12.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ProjectConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ProjectConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.School_Management.Properties.Settings.GlobalReference.Default.ProjectConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_bulletinTableAdapter" GeneratorDataComponentClassName="view_bulletinTableAdapter" Name="view_bulletin" UserDataComponentName="view_bulletinTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProjectConnectionString (Settings)" DbObjectName="Project.dbo.view_bulletin" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT subject_name, mark, subject_coefficient, teacher_firstname FROM dbo.view_bulletin</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="subject_name" DataSetColumn="subject_name" />
+              <Mapping SourceColumn="mark" DataSetColumn="mark" />
+              <Mapping SourceColumn="subject_coefficient" DataSetColumn="subject_coefficient" />
+              <Mapping SourceColumn="teacher_firstname" DataSetColumn="teacher_firstname" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProjectDataSet12" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ProjectDataSet12" msprop:Generator_UserDSName="ProjectDataSet12">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_bulletin" msprop:Generator_TableClassName="view_bulletinDataTable" msprop:Generator_TableVarName="tableview_bulletin" msprop:Generator_TablePropName="view_bulletin" msprop:Generator_RowDeletingName="view_bulletinRowDeleting" msprop:Generator_RowChangingName="view_bulletinRowChanging" msprop:Generator_RowEvHandlerName="view_bulletinRowChangeEventHandler" msprop:Generator_RowDeletedName="view_bulletinRowDeleted" msprop:Generator_UserTableName="view_bulletin" msprop:Generator_RowChangedName="view_bulletinRowChanged" msprop:Generator_RowEvArgName="view_bulletinRowChangeEvent" msprop:Generator_RowClassName="view_bulletinRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="subject_name" msprop:Generator_ColumnVarNameInTable="columnsubject_name" msprop:Generator_ColumnPropNameInRow="subject_name" msprop:Generator_ColumnPropNameInTable="subject_nameColumn" msprop:Generator_UserColumnName="subject_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mark" msprop:Generator_ColumnVarNameInTable="columnmark" msprop:Generator_ColumnPropNameInRow="mark" msprop:Generator_ColumnPropNameInTable="markColumn" msprop:Generator_UserColumnName="mark" type="xs:int" />
+              <xs:element name="subject_coefficient" msprop:Generator_ColumnVarNameInTable="columnsubject_coefficient" msprop:Generator_ColumnPropNameInRow="subject_coefficient" msprop:Generator_ColumnPropNameInTable="subject_coefficientColumn" msprop:Generator_UserColumnName="subject_coefficient" type="xs:int" />
+              <xs:element name="teacher_firstname" msprop:Generator_ColumnVarNameInTable="columnteacher_firstname" msprop:Generator_ColumnPropNameInRow="teacher_firstname" msprop:Generator_ColumnPropNameInTable="teacher_firstnameColumn" msprop:Generator_UserColumnName="teacher_firstname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

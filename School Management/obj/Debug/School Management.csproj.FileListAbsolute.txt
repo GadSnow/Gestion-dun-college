@@ -1,0 +1,30 @@
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\bin\Debug\School Management.exe.config
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\bin\Debug\School Management.exe
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\bin\Debug\School Management.pdb
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\bin\Debug\guna.ui2.dll
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\obj\Debug\School Management.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\obj\Debug\School_Management.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\obj\Debug\School Management.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\obj\Debug\School Management.exe
+c:\users\user\documents\visual studio 2015\Projects\School Management\School Management\obj\Debug\School Management.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\School Management\School Management\obj\Debug\School_Management.LoginForm.resources
+C:\Users\USER\Documents\Visual Studio 2015\Projects\School Management\School Management\obj\Debug\School_Management.DashboardForm.resources
+C:\Users\USER\Documents\Visual Studio 2015\Projects\School Management\School Management\obj\Debug\School_Management.Forms.resources
+C:\Users\USER\Documents\Visual Studio 2015\Projects\School Management\School Management\obj\Debug\School_Management.AddStudentForm.resources
+E:\C#\C# Project\School Management\School Management\bin\Debug\School Management.exe.config
+E:\C#\C# Project\School Management\School Management\obj\Debug\School Management.exe
+E:\C#\C# Project\School Management\School Management\obj\Debug\School Management.pdb
+E:\C#\C# Project\School Management\School Management\bin\Debug\School Management.exe
+E:\C#\C# Project\School Management\School Management\bin\Debug\School Management.pdb
+E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management.AddStudentForm.resources
+E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management.DashboardForm.resources
+E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management.Forms.resources
+E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management.LoginForm.resources
+E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management.Properties.Resources.resources
+E:\C#\C# Project\School Management\School Management\obj\Debug\School Management.csproj.GenerateResource.Cache
+E:\C#\C# Project\School Management\School Management\bin\Debug\aa-DJ\School Management.resources.dll
+E:\C#\C# Project\School Management\School Management\bin\Debug\aa-ER\School Management.resources.dll
+E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management.DashboardForm.aa-DJ.resources
+E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management.DashboardForm.aa-ER.resources
+E:\C#\C# Project\School Management\School Management\obj\Debug\aa-DJ\School Management.resources.dll
+E:\C#\C# Project\School Management\School Management\obj\Debug\aa-ER\School Management.resources.dll

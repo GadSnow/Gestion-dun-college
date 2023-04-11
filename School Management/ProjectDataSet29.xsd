@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProjectDataSet29" targetNamespace="http://tempuri.org/ProjectDataSet29.xsd" xmlns:mstns="http://tempuri.org/ProjectDataSet29.xsd" xmlns="http://tempuri.org/ProjectDataSet29.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ProjectConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ProjectConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.School_Management.Properties.Settings.GlobalReference.Default.ProjectConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_paymentsTableAdapter" GeneratorDataComponentClassName="view_paymentsTableAdapter" Name="view_payments" UserDataComponentName="view_paymentsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProjectConnectionString (Settings)" DbObjectName="Project.dbo.view_payments" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Elèves, Titre, Total, Montant, Statut, Dat FROM dbo.view_payments</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Elèves" DataSetColumn="Elèves" />
+              <Mapping SourceColumn="Titre" DataSetColumn="Titre" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="Montant" DataSetColumn="Montant" />
+              <Mapping SourceColumn="Statut" DataSetColumn="Statut" />
+              <Mapping SourceColumn="Dat" DataSetColumn="Dat" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProjectDataSet29" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="ProjectDataSet29" msprop:Generator_UserDSName="ProjectDataSet29">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_payments" msprop:Generator_TableClassName="view_paymentsDataTable" msprop:Generator_TableVarName="tableview_payments" msprop:Generator_TablePropName="view_payments" msprop:Generator_RowDeletingName="view_paymentsRowDeleting" msprop:Generator_RowChangingName="view_paymentsRowChanging" msprop:Generator_RowEvHandlerName="view_paymentsRowChangeEventHandler" msprop:Generator_RowDeletedName="view_paymentsRowDeleted" msprop:Generator_UserTableName="view_payments" msprop:Generator_RowChangedName="view_paymentsRowChanged" msprop:Generator_RowEvArgName="view_paymentsRowChangeEvent" msprop:Generator_RowClassName="view_paymentsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Elèves" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnElèves" msprop:Generator_ColumnPropNameInRow="Elèves" msprop:Generator_ColumnPropNameInTable="ElèvesColumn" msprop:Generator_UserColumnName="Elèves" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="61" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Titre" msprop:Generator_ColumnVarNameInTable="columnTitre" msprop:Generator_ColumnPropNameInRow="Titre" msprop:Generator_ColumnPropNameInTable="TitreColumn" msprop:Generator_UserColumnName="Titre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Montant" msprop:Generator_ColumnVarNameInTable="columnMontant" msprop:Generator_ColumnPropNameInRow="Montant" msprop:Generator_ColumnPropNameInTable="MontantColumn" msprop:Generator_UserColumnName="Montant">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Statut" msprop:Generator_ColumnVarNameInTable="columnStatut" msprop:Generator_ColumnPropNameInRow="Statut" msprop:Generator_ColumnPropNameInTable="StatutColumn" msprop:Generator_UserColumnName="Statut">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dat" msprop:Generator_ColumnVarNameInTable="columnDat" msprop:Generator_ColumnPropNameInRow="Dat" msprop:Generator_ColumnPropNameInTable="DatColumn" msprop:Generator_UserColumnName="Dat" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

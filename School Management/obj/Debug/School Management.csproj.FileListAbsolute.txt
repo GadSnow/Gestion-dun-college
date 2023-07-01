@@ -28,3 +28,7 @@ E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management
 E:\C#\C# Project\School Management\School Management\obj\Debug\School_Management.DashboardForm.aa-ER.resources
 E:\C#\C# Project\School Management\School Management\obj\Debug\aa-DJ\School Management.resources.dll
 E:\C#\C# Project\School Management\School Management\obj\Debug\aa-ER\School Management.resources.dll
+E:\C#\C# Project\School Management\School Management\obj\Debug\School Management.csproj.AssemblyReference.cache
+E:\C#\C# Project\School Management\School Management\obj\Debug\School Management.csproj.SuggestedBindingRedirects.cache
+E:\C#\C# Project\School Management\School Management\obj\Debug\School Management.csproj.CoreCompileInputs.cache
+E:\C#\C# Project\School Management\School Management\obj\Debug\School Management.csproj.CopyComplete

@@ -1242,11 +1242,8 @@
   <data name="&gt;&gt;label79.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="editUserContentPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <data name="editUserContentPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>22, 75</value>
   </data>
   <data name="editUserContentPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>1581, 915</value>

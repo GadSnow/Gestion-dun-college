@@ -108,6 +108,7 @@ namespace School_Management
                 query += $"'{values[i]}',";
             }
             query = query.Remove(query.Length - 1);
+
             query += " )";
             
 
